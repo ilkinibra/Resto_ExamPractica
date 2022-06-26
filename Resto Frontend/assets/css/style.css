@@ -1,0 +1,455 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav-item img {
+  height: 40px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.container-fluid {
+  padding-left: 30rem;
+  font-size: 25px;
+}
+
+.slider-btn {
+  margin-top: 3rem;
+  margin-bottom: 19rem;
+}
+
+.slider-btn .btn-danger {
+  border-radius: 10%;
+  font-size: 28px;
+}
+
+.slider-btn .btn-light {
+  font-size: 28px;
+  font-weight: 500;
+  background-color: white;
+}
+
+.title-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title-icon i {
+  font-size: 30px;
+  text-align: center;
+}
+
+.title-icon h3 {
+  font-weight: 200;
+  text-align: center;
+}
+
+.title-icon .icon2 {
+  border-left: 0.5px solid #DEE2E6;
+  border-right: 0.5px solid #DEE2E6;
+}
+
+.slides {
+  padding: 0;
+  width: 609px;
+  height: 420px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slides * {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide-container {
+  display: block;
+}
+
+.slide {
+  top: 0;
+  opacity: 0;
+  width: 609px;
+  height: 620px;
+  display: block;
+  position: absolute;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav label {
+  width: 200px;
+  height: 100%;
+  display: none;
+  position: absolute;
+  opacity: 0;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+  color: #FFF;
+  font-size: 156pt;
+  text-align: center;
+  line-height: 380px;
+  font-family: "Varela Round", sans-serif;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-shadow: 0px 0px 15px #777777;
+}
+
+.slide:hover + .nav label {
+  opacity: 0.5;
+}
+
+.nav label:hover {
+  opacity: 1;
+}
+
+.nav .next {
+  right: 0;
+}
+
+input:checked + .slide-container .slide {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label {
+  display: block;
+}
+
+.nav .prev {
+  margin-top: 12rem;
+}
+
+.nav .next {
+  margin-top: 12rem;
+}
+
+.about-title {
+  margin-top: 3rem;
+}
+
+.about-title h4 {
+  color: red;
+  font-weight: 100;
+}
+
+.about-title h2 {
+  font-weight: 700;
+}
+
+.about-title p {
+  color: gray;
+  margin-top: 3rem;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card {
+  border: none;
+}
+
+.card h5 {
+  color: red;
+}
+
+#specialties {
+  margin-top: 7rem;
+  background-color: #F7F8F9;
+}
+
+#specialties .specialties-title {
+  text-align: center;
+}
+
+#specialties .specialties-title h6 {
+  margin-top: 6rem;
+  font-size: 2rem;
+  color: red;
+  font-weight: 100;
+}
+
+#specialties .specialties-title p {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.number {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.specialties-title2 {
+  margin-top: 1rem;
+}
+
+.specialties-title2 .beef {
+  color: red;
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.specialties-title2 .steak {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.specialties-title2 .p {
+  color: gray;
+  word-break: break-all;
+}
+
+.specialties-title2 .price {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.special-content {
+  padding-right: 15rem;
+}
+
+.special-content2 {
+  padding-right: 15rem;
+}
+
+.formenu {
+  text-align: center;
+}
+
+.formenu .menu {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.formenu .menu .title {
+  padding-bottom: 3rem;
+}
+
+.formenu .menu .title span {
+  color: #f34949;
+  font-weight: 300;
+}
+
+.formenu .menu .title h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+.formenu .menu .cards .title h3 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.formenu .menu .cards .firstline {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.formenu .menu .cards .firstline:hover img {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.formenu .menu .cards .firstline .image {
+  display: inline-block;
+}
+
+.formenu .menu .cards .firstline .image img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.formenu .menu .cards .firstline h3 {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: -1rem;
+}
+
+.formenu .menu .cards .secondline {
+  margin-top: 1.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.formenu .menu .cards .secondline:hover img {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.formenu .menu .cards .secondline .image {
+  display: inline-block;
+}
+
+.formenu .menu .cards .secondline .image img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.formenu .menu .cards .secondline h3 {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: -1rem;
+}
+
+.formenu .menu .cards .thirdline {
+  margin-top: 1.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.formenu .menu .cards .thirdline:hover img {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.formenu .menu .cards .thirdline .image {
+  display: inline-block;
+}
+
+.formenu .menu .cards .thirdline .image img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.formenu .menu .cards .thirdline h3 {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: -1rem;
+}
+
+#text-slider {
+  background-image: url(../img/testi-bg.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.slideshow-container {
+  position: relative;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+  color: white;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
+
+#our-team .team-title {
+  text-align: center;
+}
+
+#our-team .team-title h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#our-team .team-title h4 {
+  margin-top: 6rem;
+  color: red;
+  font-size: 1rem;
+}

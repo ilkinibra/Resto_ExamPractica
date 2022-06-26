@@ -1,0 +1,50 @@
+#specialties{
+    margin-top: 7rem;
+    background-color: #F7F8F9;
+    .specialties-title{
+        text-align: center;
+        h6{
+            margin-top: 6rem;
+            font-size: 2rem;
+            color: red;
+            font-weight: 100;
+        }
+        p{
+            font-weight: 700;
+            font-size: 3rem;
+        }
+       
+    }
+}
+.number{
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.specialties-title2{
+    margin-top: 1rem;
+    .beef{
+        color: red;
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .steak{
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    .p{
+        color: gray;
+        word-break: break-all;
+    }
+    .price{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+}
+
+.special-content{
+    padding-right: 15rem;
+}
+.special-content2{
+    padding-right: 15rem;
+}

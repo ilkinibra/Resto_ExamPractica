@@ -1,0 +1,97 @@
+    
+.formenu{
+    text-align: center;
+    .menu{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        .title{
+            padding-bottom: 3rem;
+            span{
+                color:  #f34949;
+                font-weight: 300;
+            }
+            h2{
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 700;
+            }
+        }
+        .cards{
+            .title{
+                h3{
+                    font-family: 'Josefin Sans', sans-serif;
+                }
+            }
+            .firstline{
+                font-family: 'Josefin Sans', sans-serif;
+                &:hover{
+                    img{
+                        transition-duration: 0.5s;
+                        transform: scale(1.1);
+                    }
+                }
+                .image{
+                    display: inline-block;
+                    img{
+                        width: 5rem;
+                        border-radius: 50%;
+                    }
+                }
+                h3{
+                    display: inline-block;
+                    margin-left: 1rem;
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    margin-bottom: -1rem;
+                }
+            }
+            .secondline{
+                margin-top: 1.5rem;
+                font-family: 'Josefin Sans', sans-serif;
+                &:hover{
+                    img{
+                        transition-duration: 0.5s;
+                        transform: scale(1.1);
+                    }
+                }
+                .image{
+                    display: inline-block;
+                    img{
+                        width: 5rem;
+                        border-radius: 50%;
+                    }
+                }
+                h3{
+                    display: inline-block;
+                    margin-left: 1rem;
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    margin-bottom: -1rem;
+                }
+            }
+            .thirdline{
+                margin-top: 1.5rem;
+                font-family: 'Josefin Sans', sans-serif;
+                &:hover{
+                    img{
+                        transition-duration: 0.5s;
+                        transform: scale(1.1);
+                    }
+                }
+                .image{
+                    display: inline-block;
+                    img{
+                        width: 5rem;
+                        border-radius: 50%;
+                    }
+                }
+                h3{
+                    display: inline-block;
+                    margin-left: 1rem;
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    margin-bottom: -1rem;
+                }
+            }
+        }
+    }
+}
